@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Sampath portfolio </title>
+   <link rel="stylesheet" href="style.css">
+   <script src="https://kit.fontawesome.com/ad05b942ae.js" crossorigin="anonymous"></script>
+   
+</head>
+<body>
+<div id="header">
+    <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+            <div class="header-text">
+                <p>UI/UX DESIGNER</p>
+                <h1> Hi,I'm <span>Sampath</span></h1>
+            </div>
+        </div>
+        
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="samimage/Picsart_24-03-13_14-29-43-357 (2).jpg">
+
+                </div>
+                <div class="about-col-2">
+
+                    <h1 class="subtitle">About me</h1>
+                    <p>
+                        I'M A FRONTEND DEVELOPER EXPERT IN HTML, CSS AND JAVASCRIPT
+                    </p>
+                <div class='tab-titles'>
+                    <p  class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p  class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p  class="tab-links" onclick="opentab('education')">Education</p>
+
+
+
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Design web/app application</li>
+                    <li><span>Web Development</span><br>web app development</li>
+                    <li><span>App Development</span><br>Building Android/Ios apps</li>
+                </ul>
+            </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>FOOD COURT</span><br>Created food websites</li>
+                        <li><span>ANDROID APP</span><br>Android apps templates</li>
+                        <li><span>App</span><br>Created women safety app</li>
+                    </ul>
+                </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>X</span><br>Bharathi Matriculation Higher Secondary School
+                                94%</li>
+                            <li><span>XII</span><br> Bharathi Matriculation Higher Secondary School
+                                80%</li>
+                            <li><span> BE-CSE</span><br>
+                                Vel Tech Multi Tech Dr.Rangarajan Dr.Sakunthala
+                                Engineering College<br>
+                                82</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!----services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Expert in front end</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Expert in front end</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-apple-whole"></i>
+                    <h2>App Design</h2>
+                    <p>Expert in front end</p>
+                    <a href="#">Learn more</a>
+                </div>
+            
+            </div>
+
+        </div>
+    </div>
+    <!-----portfolio------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="samimage/Screenshot 2025-01-06 023233.png">
+                    <div class="layer">
+                        <h3>social media app</h3>
+                        <p> its connective people</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="samimage/Screenshot 2025-01-06 023528.png">
+                    <div class="layer">
+                        <h3>mobile application</h3>
+                        <p> its useful tracking people in women safety app</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+
+        </div>
+    </div>
+<!---------------------contact---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-regular fa-paper-plane"></i><a href="samsampath695@gmail.com">samsampath695@gmail.com</a></p>
+                <p><i class="fa-solid fa-phone"></i><a href="6381306203">6381306203</a></p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/invites/contact/?igsh=elozdw5cys5n&utm_content=6icuf9j "><i class="fa-brands fa-instagram"></i><p>Instagram</p></a>
+                </div>
+                <a href="samimage/Sampath_V_Java.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="name" placeholder="your name" required>
+                    <input type="email" name="email" placeholder="your email" required>
+                    <textarea name="message" rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+    
+    </div>
+</div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-contents');
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+
+            }
+        for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add('active-link');
+        document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+
+
+    </script>
+    <script>
+        var sidmenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidmenu.style.right = '0';
+        }
+        function closemenu(){
+            sidmenu.style.right = '-200px';
+        }
+
+    </script>
+    
+</body>
+</html>
